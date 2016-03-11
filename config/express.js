@@ -10,6 +10,8 @@ module.exports = function () {
 
   app.use(bodyParser.json());
 
+  require('../app/routes/news.server.route')(app);
+
   app.use(function (req, res, next) {
     res.status(404);
     try {
