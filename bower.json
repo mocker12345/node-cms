@@ -1,0 +1,21 @@
+{
+  "name": "node-cms",
+  "description": "simple cms",
+  "main": "bin/www",
+  "authors": [
+    "rancongjie"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "cms"
+  ],
+  "homepage": "https://github.com/rancongjie/node-cms",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

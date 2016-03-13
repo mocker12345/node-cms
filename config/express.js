@@ -9,6 +9,7 @@ module.exports = function () {
   var app = express();
 
   app.use(bodyParser.json());
+  app.use(express.static("./public"));
 
   require('../app/routes/news.server.route')(app);
 
